@@ -1,0 +1,150 @@
+$ yarn create react-app . --template typescript
+yarn create v1.22.4
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Installed "create-react-app@3.4.1" with binaries:
+      - create-react-app
+[###################################################################################################] 99/99
+Creating a new React app in /home/guria/ws/sandbox/my-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template-typescript...
+
+yarn add v1.22.4
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.12: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.1.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning "react-scripts > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 23 new dependencies.
+info Direct dependencies
+├─ cra-template-typescript@1.0.3
+├─ react-dom@16.13.1
+├─ react-scripts@3.4.3
+└─ react@16.13.1
+info All dependencies
+├─ @babel/helper-member-expression-to-functions@7.11.0
+├─ @babel/plugin-syntax-typescript@7.10.4
+├─ @babel/plugin-transform-flow-strip-types@7.9.0
+├─ @babel/plugin-transform-runtime@7.9.0
+├─ @babel/plugin-transform-typescript@7.11.0
+├─ @babel/preset-typescript@7.9.0
+├─ babel-preset-react-app@9.1.2
+├─ cra-template-typescript@1.0.3
+├─ eslint-config-react-app@5.2.1
+├─ html-entities@1.3.1
+├─ loglevel@1.6.8
+├─ portfinder@1.0.28
+├─ react-dev-utils@10.2.1
+├─ react-dom@16.13.1
+├─ react-error-overlay@6.0.7
+├─ react-scripts@3.4.3
+├─ react@16.13.1
+├─ scheduler@0.19.1
+├─ serialize-javascript@4.0.0
+├─ sockjs@0.3.20
+├─ spdy@4.0.2
+├─ terser-webpack-plugin@2.3.8
+└─ webpack-dev-server@3.11.0
+Done in 17.09s.
+
+Installing template dependencies using yarnpkg...
+yarn add v1.22.4
+[1/4] Resolving packages...
+warning @testing-library/react > @types/testing-library__react > @types/testing-library__dom@7.5.0: This is a stub types definition. testing-library__dom provides its own type definitions, so you do not need this installed.
+[2/4] Fetching packages...
+info fsevents@2.1.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.12: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > @testing-library/user-event@7.2.1" has unmet peer dependency "@testing-library/dom@>=5".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 25 new dependencies.
+info Direct dependencies
+├─ @testing-library/jest-dom@4.2.4
+├─ @testing-library/react@9.5.0
+├─ @testing-library/user-event@7.2.1
+├─ @types/jest@24.9.1
+├─ @types/node@12.12.54
+├─ @types/react-dom@16.9.8
+├─ @types/react@16.9.46
+├─ react-dom@16.13.1
+├─ react@16.13.1
+└─ typescript@3.7.5
+info All dependencies
+├─ @babel/runtime-corejs3@7.11.2
+├─ @sheerun/mutationobserver-shim@0.3.3
+├─ @testing-library/dom@6.16.0
+├─ @testing-library/jest-dom@4.2.4
+├─ @testing-library/react@9.5.0
+├─ @testing-library/user-event@7.2.1
+├─ @types/aria-query@4.2.0
+├─ @types/jest@24.9.1
+├─ @types/node@12.12.54
+├─ @types/prop-types@15.7.3
+├─ @types/react-dom@16.9.8
+├─ @types/react@16.9.46
+├─ @types/testing-library__dom@7.5.0
+├─ @types/testing-library__react@9.1.3
+├─ aria-query@4.2.2
+├─ css.escape@1.5.1
+├─ csstype@3.0.2
+├─ dom-accessibility-api@0.3.0
+├─ min-indent@1.0.1
+├─ react-dom@16.13.1
+├─ react@16.13.1
+├─ redent@3.0.0
+├─ strip-indent@3.0.0
+├─ typescript@3.7.5
+└─ wait-for-expect@3.0.2
+Done in 20.12s.
+
+We detected TypeScript in your project (src/App.test.tsx) and created a tsconfig.json file for you.
+
+Your tsconfig.json has been populated with default values.
+
+Removing template package using yarnpkg...
+
+yarn remove v1.22.4
+[1/2] Removing module cra-template-typescript...
+[2/2] Regenerating lockfile and installing missing dependencies...
+info fsevents@2.1.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.12: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+warning " > @testing-library/user-event@7.2.1" has unmet peer dependency "@testing-library/dom@>=5".
+success Uninstalled packages.
+Done in 7.66s.
+
+Success! Created my-app at /home/guria/ws/sandbox/my-app
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd /home/guria/ws/sandbox/my-app
+  yarn start
+
+Happy hacking!
+Done in 48.61s.
