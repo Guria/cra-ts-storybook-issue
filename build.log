@@ -1,0 +1,91 @@
+yarn run v1.22.4
+$ build-storybook -s public
+info @storybook/react v6.0.16
+info 
+info clean outputDir..
+info => Copying static files from: public
+info => Copying prebuild dll's..
+info => Building manager..
+info => Loading manager config..
+info => Loading presets
+info => Compiling manager..
+info => manager built (14 s)
+info => Building preview..
+info => Loading preview config..
+info => Loading presets
+info => Loading config/preview file in "./.storybook".
+info => Loading config/preview file in "./.storybook".
+info => Adding stories defined in ".storybook/main.js".
+info => Loading Webpack configuration from `node_modules/react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info => Using default Webpack setup.
+info => Compiling preview..
+info => Preview built (21 s)
+WARN ./src/stories/Button.stories.tsx
+WARN Module build failed (from ./node_modules/@storybook/source-loader/dist/index.js):
+WARN TypeError: Cannot read property 'start' of undefined
+WARN     at handleExportedName (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/parse-helpers.js:130:19)
+WARN     at Controller.enter (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/traverse-helpers.js:161:58)
+WARN     at Controller.__execute (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:330:31)
+WARN     at Controller.traverse (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:434:28)
+WARN     at Object.traverse (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:646:27)
+WARN     at findExportsMap (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/traverse-helpers.js:151:14)
+WARN     at generateStoriesLocationsMap (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/generate-helpers.js:220:61)
+WARN     at inject (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/inject-decorator.js:65:66)
+WARN     at readAsObject (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/dependencies-lookup/readAsObject.js:26:48)
+WARN     at readStory (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/dependencies-lookup/readAsObject.js:42:10)
+WARN     at Object.transform (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/build.js:13:38)
+WARN  @ \.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$ (./src sync ^\.(?:(?:^|\/|(?:(?:(?!(?:^|\/)\.).)*?)\/)(?!\.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$) ./stories/Button.stories.tsx
+WARN  @ ./.storybook/generated-stories-entry.js
+WARN  @ multi ./node_modules/@storybook/core/dist/server/common/polyfills.js ./node_modules/@storybook/core/dist/server/preview/globals.js ./.storybook/storybook-init-framework-entry.js ./node_modules/@storybook/addon-docs/dist/frameworks/common/config.js-generated-other-entry.js ./node_modules/@storybook/addon-docs/dist/frameworks/react/config.js-generated-other-entry.js ./node_modules/@storybook/addon-links/dist/preset/addDecorator.js-generated-other-entry.js ./node_modules/@storybook/addon-actions/dist/preset/addDecorator.js-generated-other-entry.js ./node_modules/@storybook/addon-actions/dist/preset/addArgs.js-generated-other-entry.js ./node_modules/@storybook/addon-backgrounds/dist/preset/defaultParameters.js-generated-other-entry.js ./.storybook/preview.js-generated-config-entry.js ./.storybook/generated-stories-entry.js
+WARN ./src/stories/Header.stories.tsx
+WARN Module build failed (from ./node_modules/@storybook/source-loader/dist/index.js):
+WARN TypeError: Cannot read property 'start' of undefined
+WARN     at handleExportedName (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/parse-helpers.js:130:19)
+WARN     at Controller.enter (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/traverse-helpers.js:161:58)
+WARN     at Controller.__execute (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:330:31)
+WARN     at Controller.traverse (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:434:28)
+WARN     at Object.traverse (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:646:27)
+WARN     at findExportsMap (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/traverse-helpers.js:151:14)
+WARN     at generateStoriesLocationsMap (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/generate-helpers.js:220:61)
+WARN     at inject (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/inject-decorator.js:65:66)
+WARN     at readAsObject (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/dependencies-lookup/readAsObject.js:26:48)
+WARN     at readStory (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/dependencies-lookup/readAsObject.js:42:10)
+WARN     at Object.transform (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/build.js:13:38)
+WARN  @ \.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$ (./src sync ^\.(?:(?:^|\/|(?:(?:(?!(?:^|\/)\.).)*?)\/)(?!\.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$) ./stories/Header.stories.tsx
+WARN  @ ./.storybook/generated-stories-entry.js
+WARN  @ multi ./node_modules/@storybook/core/dist/server/common/polyfills.js ./node_modules/@storybook/core/dist/server/preview/globals.js ./.storybook/storybook-init-framework-entry.js ./node_modules/@storybook/addon-docs/dist/frameworks/common/config.js-generated-other-entry.js ./node_modules/@storybook/addon-docs/dist/frameworks/react/config.js-generated-other-entry.js ./node_modules/@storybook/addon-links/dist/preset/addDecorator.js-generated-other-entry.js ./node_modules/@storybook/addon-actions/dist/preset/addDecorator.js-generated-other-entry.js ./node_modules/@storybook/addon-actions/dist/preset/addArgs.js-generated-other-entry.js ./node_modules/@storybook/addon-backgrounds/dist/preset/defaultParameters.js-generated-other-entry.js ./.storybook/preview.js-generated-config-entry.js ./.storybook/generated-stories-entry.js
+WARN ./src/stories/Page.stories.tsx
+WARN Module build failed (from ./node_modules/@storybook/source-loader/dist/index.js):
+WARN TypeError: Cannot read property 'start' of undefined
+WARN     at handleExportedName (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/parse-helpers.js:130:19)
+WARN     at Controller.enter (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/traverse-helpers.js:161:58)
+WARN     at Controller.__execute (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:330:31)
+WARN     at Controller.traverse (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:434:28)
+WARN     at Object.traverse (/home/guria/ws/sandbox/my-app/node_modules/estraverse/estraverse.js:646:27)
+WARN     at findExportsMap (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/traverse-helpers.js:151:14)
+WARN     at generateStoriesLocationsMap (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/generate-helpers.js:220:61)
+WARN     at inject (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/abstract-syntax-tree/inject-decorator.js:65:66)
+WARN     at readAsObject (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/dependencies-lookup/readAsObject.js:26:48)
+WARN     at readStory (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/dependencies-lookup/readAsObject.js:42:10)
+WARN     at Object.transform (/home/guria/ws/sandbox/my-app/node_modules/@storybook/source-loader/dist/build.js:13:38)
+WARN  @ \.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$ (./src sync ^\.(?:(?:^|\/|(?:(?:(?!(?:^|\/)\.).)*?)\/)(?!\.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$) ./stories/Page.stories.tsx
+WARN  @ ./.storybook/generated-stories-entry.js
+WARN  @ multi ./node_modules/@storybook/core/dist/server/common/polyfills.js ./node_modules/@storybook/core/dist/server/preview/globals.js ./.storybook/storybook-init-framework-entry.js ./node_modules/@storybook/addon-docs/dist/frameworks/common/config.js-generated-other-entry.js ./node_modules/@storybook/addon-docs/dist/frameworks/react/config.js-generated-other-entry.js ./node_modules/@storybook/addon-links/dist/preset/addDecorator.js-generated-other-entry.js ./node_modules/@storybook/addon-actions/dist/preset/addDecorator.js-generated-other-entry.js ./node_modules/@storybook/addon-actions/dist/preset/addArgs.js-generated-other-entry.js ./node_modules/@storybook/addon-backgrounds/dist/preset/defaultParameters.js-generated-other-entry.js ./.storybook/preview.js-generated-config-entry.js ./.storybook/generated-stories-entry.js
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   vendors~main.be02d65baf1537c2a887.bundle.js (1.11 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (1.15 MiB)
+WARN       runtime~main.be02d65baf1537c2a887.bundle.js
+WARN       vendors~main.be02d65baf1537c2a887.bundle.js
+WARN       main.be02d65baf1537c2a887.bundle.js
+WARN 
+WARN webpack performance recommendations: 
+WARN You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+WARN For more info visit https://webpack.js.org/guides/code-splitting/
+info => Output directory: /home/guria/ws/sandbox/my-app/storybook-static
+Done in 37.32s.
